@@ -1,7 +1,85 @@
 .contentNav {
-  background: #050505;
-  .text {
-    color: white;
-    margin: 5% auto 2% 6%;
+  position: absolute;
+  width: 100%;
+  .contentNavDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #ffffff;
+    margin: 2% 3% 2% 6%;
+    text-align: center;
+    justify-content: space-between;
+    height: 40px;
+    gap: 15px;
+    p {
+      height: 2px;
+      width: 65%;
+      background: white;
+      margin: 0;
+    }
+    .text {
+      width: 121px !important;
+      margin: 0;
+    }
+    .contentButton {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      width: 350px;
+      height: 35px;
+      .icono-menu {
+        display: none;
+      }
+      ::ng-deep.button {
+        width: 160px;
+        height: 100%;
+        border-radius: 15px;
+        background: white;
+        border: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        min-width: 100px;
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .contentNavDiv {
+    .linea {
+      width: calc(53% - 10%) !important;
+    }
+  }
+}
+@media only screen and (max-width: 950px) {
+  .contentNavDiv {
+    .linea {
+      width: calc(40% - 15%) !important;
+    }
+  }
+}
+@media only screen and (max-width: 710px) {
+  .contentNavDiv {
+    .linea {
+      width: 75% !important;
+    }
+
+    .text {
+      font-size: 15px;
+    }
+    .contentButton {
+      width: 10% !important;
+      .icono-menu {
+        display: inline-block !important;
+      }
+      ::ng-deep.button {
+        display: none !important;
+      }
+    }
   }
 }
