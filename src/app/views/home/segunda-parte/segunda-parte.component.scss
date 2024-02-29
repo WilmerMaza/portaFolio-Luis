@@ -1,0 +1,250 @@
+
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.Letra{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+  }
+
+
+.contenedor {
+    background: #050505;
+    /*position: relative;  Establece la posición relativa para los elementos hijos */
+    
+}
+
+.cuadro-blanco {
+    border:solid;
+    border-radius: 50px;
+    width: 1220px; /* Ancho  */
+    height: 700px; /* Altura  */
+    background-color: white; /* Color de fondo del cuadro blanco */
+    position: relative; /* Establece la posición absoluta para el cuadro blanco */
+     /* Posiciona el cuadro blanco 50px desde la parte superior del contenedor */
+     margin: 0 auto;/* Posiciona el cuadro blanco 50px desde el lado izquierdo del contenedor */
+     
+     
+     
+}
+
+ .cuadro-amarillo {
+    /*background-image: url("/assets/img/Imagen2.webp");*/
+    width: 472px; /* Ancho del cuadro amarillo */
+    height: 450px; /* Altura del cuadro amarillo */
+    background-color:  rgba(255, 185, 0, 1);
+    ; /* Color cuadro amarillo */
+    border-radius: 40px;
+    position: absolute; /* Establece la posición absoluta para el cuadro amarillo */
+    top: 52%; /* Posiciona  vertical  */
+    left: 78%; /* Posiciona  horizontal  */
+    transform: translate(-50%, -50%); /* Centra el cuadro amarillo dentro del cuadro blanco */
+    z-index: 1; /* Asegura que el cuadro amarillo esté por encima del cuadro blanco */
+    
+}
+
+
+
+.titulo{
+
+    color: rgba(255, 185, 0, 1);
+    ;
+    position: absolute; 
+    top: 15%; /* Posiciona  vertical  */
+    left: 21%; /* Posiciona  horizontal  */
+    font-size: 45px; /* Tamaño de letra en píxeles */
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    width: 400px; /* Ancho del texto */
+    height: 100px; /*Largo del texto*/
+    font-weight: 800; /*poner grueso el texto*/
+}
+
+
+.texto2{
+
+    font-size: 22px; /* Tamaño de letra en píxeles */ 
+    position: absolute;  /* Cambia la posición del elemento */
+    top: 27%;  /* Posiciona  vertical  */
+    left: 5%; /* Posiciona  horizontal  */
+    font-weight: bold;
+}
+
+.barra_negra{
+    background-color: #050505;
+    width: 670px; /* Ancho del rectángulo */
+    height: 155px; /* Altura del rectángulo */
+    position: absolute;
+    border:solid;
+    border-radius: 60px;
+    top: 50%; /* Posiciona  vertical  */
+    left: 0%; /* Posiciona  horizontal  */
+    border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+    border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+
+}
+
+.texto3{
+ color:rgba(255, 185, 0, 1);
+ width: 600px; /* Ancho del texto */
+ height: 150px; /*Largo del texto*/
+ font-size: 21px; /* Tamaño de letra en píxeles */
+ position: absolute;
+ top: 10%;  /* Posiciona  vertical  */
+ left: 9%; /* Posiciona  horizontal  */
+ font-weight: 550; /*grosor del texto*/
+ 
+}
+
+.texto4{
+    color: rgba(255, 185, 0, 1);
+
+    width: 690px; /* Ancho del texto */
+    height: 150px; /*Largo del texto*/
+    font-size: 30px; /* Tamaño de letra en píxeles */
+    position: absolute;
+    top: 80%;  /* Posiciona  vertical  */
+    left: 2%; /* Posiciona  horizontal  */
+    font-weight: 700;
+    
+    
+
+}
+  
+.centrar{
+    text-align: center;
+    
+}
+
+.imagen{
+    position: absolute;
+    top: -34%;  /* Posiciona  vertical  */
+    left: -144%; /* Posiciona  horizontal*/  
+    
+    height: 160%; /* largo */
+    width: 1180px; /* Ancho del texto */
+}
+
+.lucho{
+
+    width: 130px; /* Ancho del texto */
+    height: 30px; /*Largo del texto*/
+    font-size: 20px; /* Tamaño de letra en píxeles */
+    position: absolute;
+    top: 15.5%;  /* Posiciona  vertical  */
+    left: 85%; /* Posiciona  horizontal  */
+    font-weight: 800; /*grosor*/
+
+}
+
+
+/* Media Queries para dispositivos con un ancho máximo de 767px (por ejemplo, smartphones en modo vertical) */
+@media only screen and   (max-width: 767px) {
+    
+   
+    
+    .titulo{
+       
+        width: 28% ; /* Reducir el ancho del titulo para dispositivos móviles */
+        
+        height: 12%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 20%;  /* Posiciona  vertical  */
+        left: 20%; /* Posiciona  horizontal  */
+        position: absolute;
+        font-size: 3.8vw; /* Tamaño de letra en píxeles */
+    }
+
+    .texto2 {
+        width: 50% ; /* Reducir el ancho del texto para dispositivos móviles */
+        
+        height: 35%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 35%;  /* Posiciona  vertical  */
+        left: 6%; /* Posiciona  horizontal  */
+        position: absolute;
+        font-size: 1.5vw; /* Tamaño de letra en píxeles */
+    }
+
+    .texto3 {
+        width: 90% ; /* Reducir el ancho del texto para dispositivos móviles */
+        height: 80%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 12%;  /* Posiciona  vertical  */
+        left: 12%; /* Posiciona  horizontal  */
+        position: absolute;
+        font-size: 1.4vw; /* Tamaño de letra en píxeles */
+    }
+
+    .texto4 {
+        width: 60% ; /* Reducir el ancho del texto para dispositivos móviles */
+        height: 20%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 82%;  /* Posiciona  vertical  */
+        left: -3%; /* Posiciona  horizontal  */
+        position: absolute;
+        font-size: 1.7vw; /* Tamaño de letra en píxeles */
+    }
+
+    .barra_negra {
+        
+        width: 55% ; /* Reducir el ancho del cuadro blanco para dispositivos móviles */
+        height: 23%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 55%;  /* Posiciona  vertical  */
+        left: -0.5%; /* Posiciona  horizontal  */
+        position: absolute;
+        border-radius: 15px;
+        border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+        border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+    }
+
+    .cuadro-blanco {
+        width: 87% ; /* Reducir el ancho del cuadro blanco para dispositivos móviles */ 
+        height: 28%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 45%;  /* Posiciona  vertical  */
+        left: 7%; /* Posiciona  horizontal  */
+        position: absolute;
+        border-radius: 25px;
+    }
+
+
+    .cuadro-amarillo {
+        width: 42% ; /* Reducir el ancho del cuadro amarillo para dispositivos móviles */
+        height: 60%; /* Hacer que la altura sea automática para adaptarse al contenido */
+        top: 55%;  /* Posiciona  vertical  */
+        left: 77%; /* Posiciona  horizontal  */
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    .imagen {
+        width: 250%; /* Cambiado a 100% para que se ajuste al ancho del dispositivo */
+        height: 160%; /* Hacer que la altura sea automática para mantener la relación de aspecto */
+        top: -36%; /* Ajustar la posición vertical si es necesario */
+        left: -143%; /* Ajustar la posición horizontal si es necesario */
+        
+    }
+
+
+    .lucho{
+
+        width: 150px; /* Ancho del texto */
+        height: 10px; /*Largo del texto*/
+        font-size: 4.5px; /* Tamaño de letra en píxeles */
+        position: absolute;
+        top: 22%;  /* Posiciona  vertical  */
+        left: 85%; /* Posiciona  horizontal  */
+        font-weight: 800; /*grosor*/
+    
+    }
+    
+}
+      
+
+  
