@@ -1,0 +1,915 @@
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.Letra {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+  } 
+
+.contenedor{
+    margin: 2% 5% 2% 5%;; /*arriba| derecha | abajo | izquierda*/
+    /*padding: 10px; arriba| derecha | abajo | izquierda*/
+    /*top: 20%;  Posiciona  vertical  */
+    position: relative;
+    top: -65px;
+
+    
+}
+
+.portada{
+   
+    margin: 2% 5% 5% 5%;
+    padding: 10% 5% 10% 5%;
+    top: 0px;/* Posiciona  vertical  */
+    left: 2px;/* Posiciona  horizontal  */
+    position: relative;
+    width: auto; /* Reducir el ancho del titulo para dispositivos móviles */
+    height: auto; /* Hacer que la altura sea automática para adaptarse al contenido */
+  
+    
+    .cuadro-amarillo{
+        width: 30vw;
+       height: 12vh;
+        background-color: rgb(255, 185, 0);
+     
+       
+        position: absolute;
+        left: 35%;
+       top: -17%;
+        /*margin-top: -7%;
+        margin-left: 37%;*/
+        padding: 5%;
+        
+    
+        .letras{
+    
+            text-align: center;
+            font-size: 25px; /* Tamaño de letra en píxeles */
+            margin-top: -5%;
+           /* position:absolute; */
+            
+            
+        }
+    }
+
+
+ 
+}
+
+
+
+
+
+.Imagenes2{
+
+    .rectangulo-blanco{
+    background-color: white; 
+    width: 99%; /* Ancho del rectángulo */
+    /*height: 35%;  Altura del rectángulo */
+    position: relative;
+    border-radius: 60px;
+    padding:10%;
+    margin-top: 1%;
+    margin-left: 10%;
+ /* border-top-left-radius: 0%;  Borde ovalado solo en la parte superior izquierda 
+  border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda 
+  position:absolute;
+  top: 35%;
+  left: 10%;
+  border: solid;*/
+    .miniImagenes{
+      
+        .imagen1{
+          width: 15%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:10%;/* Ajustar la posición horizontal si es necesario */;
+          top: 10%;
+        }
+
+        .imagen2{
+          width: 15%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:32%;/* Ajustar la posición horizontal si es necesario */;
+          top: 5%;
+
+        }
+
+        .imagen3{
+          width: 15%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:53%;/* Ajustar la posición horizontal si es necesario */
+          top: 10%;
+
+        }
+
+        .imagen4{
+            width: 15%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+           position:absolute;
+            left:75%;/* Ajustar la posición horizontal si es necesario */
+            top: 10%;
+           
+            
+        }
+
+
+     }
+
+
+  }
+
+
+  .circulo{
+    width: 30%; /* Ancho del rectángulo */
+   /*  height: 65%; Altura del rectángulo */
+    position:relative; 
+   /* top: 20%; Ajustar la posición vertical si es necesario */
+    /*left: -5%; Ajustar la posición horizontal si es necesario */
+    margin-top: -25%;
+    margin-left: -12%;
+
+  }
+
+  .Entre-otros{
+    color: rgba(255, 185, 0, 1);
+    width: 30%; /* Ancho del texto */
+    /*height: 20%; Largo del texto*/
+    font-size: 90%; /* Tamaño de letra en píxeles */
+    font-weight: 700;
+    transform: translate(280%, -70%); 
+    /* position: absolute;
+    top: 70%;  Posiciona  vertical  
+    left: 85%; /* Posiciona  horizontal  */
+    
+    /*margin-left: 90%;
+    margin-top: -5%; CORREGIR*/
+  
+  }
+  
+
+
+}
+
+
+.Ilustracion{
+
+  position: relative;
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -9%;
+    
+  
+  .Ilustracion2{
+    
+    /*padding: 10px; arriba| derecha | abtop: 20%; /* Posiciona  vertical  */
+    /*position: relative;*/
+    width: 100%;
+  
+    
+
+  }
+
+  .Kub{
+    position: absolute;
+    top: 10%; /* Posiciona  vertical  */
+    left: 59%; /* Posiciona  horizontal  */
+    width: 5%;
+    height: 10% /*ancho*/
+    
+
+  }
+
+
+}
+
+
+
+
+.letricas{
+    
+  color: rgba(255, 185, 0, 1);
+  width: 90%; /* Ancho del texto */
+  /*height: 20%; Largo del texto*/
+  font-size: 160%; /* Tamaño de letra en píxeles */
+  /*position: absolute;*/
+  /*top: 70%;  Posiciona  vertical  */
+  /*left: 8%;  Posiciona  horizontal  */
+  font-weight: 700;
+ 
+  text-align: center
+}
+@media  screen and (max-width:320px) {
+
+
+  .portada{
+ 
+    /*
+    margin: 2% 5% 5% 5%;
+    padding: 10% 5% 10% 5%; */
+    top: 0px;/* Posiciona  vertical  */
+    left: 2px;/* Posiciona  horizontal  */
+  
+    .cuadro-amarillo{
+      width: 36%;
+     height:10%;
+      background-color: rgb(255, 185, 0);
+   
+     
+      /*position: absolute;
+      left: 35%;
+     top: 7.5%;
+      margin-top: -7%;
+      margin-left: 37%;
+      padding: 4%;*/
+      transform: translate(0%, -200%); /* X-Y */
+      box-shadow:  0px 10px 10px -10px   inset;
+     
+  
+      .letras{
+      
+        text-align: center;
+        
+        margin-top: -5%;
+         font-size: 3vw; /* Tamaño de letra en píxeles */
+  
+        
+        
+      }
+     
+    
+    }
+  
+  }
+  
+  
+  
+  .Imagenes2{
+    transform: translate(0%, 10%); /* X-Y */
+  
+    .rectangulo-blanco{
+      background-color: white; 
+      width: 99%; /* Ancho del rectángulo */
+      /*height: 35%;  Altura del rectángulo */
+      position: relative;
+      border-radius: 19px;
+      padding:10%;
+     top: 9px;
+      /* margin-left: 10%;*/
+      border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+    border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+     
+   
+      .miniImagenes{
+        
+          .imagen1{
+            width: 14%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:10%;/* Ajustar la posición horizontal si es necesario */;
+            top: 18%;
+          }
+  
+          .imagen2{
+            width: 14.5%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:31%;/* Ajustar la posición horizontal si es necesario */;
+            top: 11%;
+  
+          }
+  
+          .imagen3{
+            width: 15%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:53%;/* Ajustar la posición horizontal si es necesario */
+            top: 13%;
+  
+          }
+  
+          .imagen4{
+              width: 15%; /* Ancho del rectángulo */
+              /*height: 95%;  Altura del rectángulo */
+             position:absolute;
+              left:75%;/* Ajustar la posición horizontal si es necesario */
+              top: 10%;
+             
+              
+          }
+  
+  
+       }
+  
+  
+    }
+  
+    .circulo{
+      width: 30%; /* Ancho del rectángulo */
+     /*  height: 65%; Altura del rectángulo */
+      position:relative; 
+      top: 2px; /*Ajustar la posición vertical si es necesario */
+      left: -1px; /*Ajustar la posición horizontal si es necesario 
+      /*margin-top: -25%;
+      margin-left: -18%;*/
+  
+    }
+  
+  
+    .Entre-otros{
+      color: rgba(255, 185, 0, 1);
+      width: 30%; /* Ancho del texto */
+      /*height: 20%; Largo del texto*/
+      font-size: 90%; /* Tamaño de letra en píxeles */
+      font-weight: 700;
+      transform: translate(280%, -70%);
+      /* position: absolute;
+      top: 70%;  Posiciona  vertical  
+      left: 85%;  Posiciona  horizontal  
+      ;
+      margin-left: 90%;
+      margin-top: -5%;*/
+    
+    
+    }
+  
+  }
+  
+  
+  
+   
+  .Ilustracion{
+
+  position: relative;
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -9%;
+  top: -15px;
+    
+  
+  .Ilustracion2{
+    
+    /*padding: 10px; arriba| derecha | abtop: 20%; /* Posiciona  vertical  */
+    /*position: relative;*/
+    width: 85%;
+  
+    
+
+  }
+
+  .Kub{
+    position: absolute;
+    top: 10%; /* Posiciona  vertical  */
+    left: 59%; /* Posiciona  horizontal  */
+    width: 5%;
+    height: 10% /*ancho*/
+    
+
+  }
+
+
+  }
+  
+
+
+  
+  .letricas{
+      
+    color: rgba(255, 185, 0, 1);
+    width: 100%; /* Ancho del texto */
+    /*height: 20%; Largo del texto*/
+    font-size: 50%; /* Tamaño de letra en píxeles */
+    /*position: absolute;*/
+    /*top: 70%;  Posiciona  vertical  */
+    /*left: 8%;  Posiciona  horizontal  */
+    font-weight: 600;
+    text-align: center;
+    transform: translate(0%, 350%); /* X-Y */
+  }
+
+}
+
+@media  screen and (max-width:767px) {
+
+.portada{
+ 
+  /*
+  margin: 2% 5% 5% 5%;
+  padding: 10% 5% 10% 5%; */
+  top: 0px;/* Posiciona  vertical  */
+  left: 2px;/* Posiciona  horizontal  */
+
+  .cuadro-amarillo{
+    width: 36%;
+   height:27%;
+    background-color: rgb(255, 185, 0);
+ 
+   
+    /*position: absolute;
+    left: 35%;
+   top: 7.5%;
+    margin-top: -7%;
+    margin-left: 37%;
+    padding: 4%;*/
+    transform: translate(0%, 80%); /* X-Y */
+    box-shadow:  0px 10px 10px -10px   inset;
+   
+
+    .letras{
+    
+      text-align: center;
+      
+      margin-top: -5%;
+       font-size: 3vw; /* Tamaño de letra en píxeles */
+
+      
+      
+    }
+   
+  
+  }
+
+}
+
+
+
+.Imagenes2{
+  transform: translate(0%, 10%); /* X-Y */
+
+  .rectangulo-blanco{
+    background-color: white; 
+    width: 99%; /* Ancho del rectángulo */
+    /*height: 35%;  Altura del rectángulo */
+    position: relative;
+    border-radius: 19px;
+    padding:10%;
+   top: 9px;
+    /* margin-left: 10%;*/
+    border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+  border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+   
+ 
+    .miniImagenes{
+      
+        .imagen1{
+          width: 14%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:10%;/* Ajustar la posición horizontal si es necesario */;
+          top: 18%;
+        }
+
+        .imagen2{
+          width: 14.5%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:31%;/* Ajustar la posición horizontal si es necesario */;
+          top: 11%;
+
+        }
+
+        .imagen3{
+          width: 15%; /* Ancho del rectángulo */
+          /*height: 95%;  Altura del rectángulo */
+          position:absolute;
+          left:53%;/* Ajustar la posición horizontal si es necesario */
+          top: 13%;
+
+        }
+
+        .imagen4{
+            width: 15%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+           position:absolute;
+            left:75%;/* Ajustar la posición horizontal si es necesario */
+            top: 10%;
+           
+            
+        }
+
+
+     }
+
+
+  }
+
+  .circulo{
+    width: 30%; /* Ancho del rectángulo */
+   /*  height: 65%; Altura del rectángulo */
+    position:relative; 
+    top: 2px; /*Ajustar la posición vertical si es necesario */
+    left: -1px; /*Ajustar la posición horizontal si es necesario 
+    /*margin-top: -25%;
+    margin-left: -18%;*/
+
+  }
+
+
+  .Entre-otros{
+    color: rgba(255, 185, 0, 1);
+    width: 30%; /* Ancho del texto */
+    /*height: 20%; Largo del texto*/
+    font-size: 90%; /* Tamaño de letra en píxeles */
+    font-weight: 700;
+    transform: translate(280%, -70%);
+    /* position: absolute;
+    top: 70%;  Posiciona  vertical  
+    left: 85%;  Posiciona  horizontal  
+    ;
+    margin-left: 90%;
+    margin-top: -5%;*/
+  
+  
+  }
+
+}
+
+
+
+.Ilustracion{
+
+  position: relative;
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -9%;
+  transform: translate(0%, 25%); /* X-Y */
+  
+}
+
+.letricas{
+    
+  color: rgba(255, 185, 0, 1);
+  width: 100%; /* Ancho del texto */
+  /*height: 20%; Largo del texto*/
+  font-size: 50%; /* Tamaño de letra en píxeles */
+  /*position: absolute;*/
+  /*top: 70%;  Posiciona  vertical  */
+  /*left: 8%;  Posiciona  horizontal  */
+  font-weight: 600;
+  text-align: center;
+  transform: translate(0%, 250%); /* X-Y */
+}
+}
+
+
+@media  screen and (min-width: 768px) and (max-width:1023px) {
+
+  .portada{
+   
+    /*
+    margin: 2% 5% 5% 5%;
+    padding: 10% 5% 10% 5%; */
+    top: 0px;/* Posiciona  vertical  */
+    left: 2px;/* Posiciona  horizontal  */
+  
+    .cuadro-amarillo{
+      width: 40%;
+     height:35%;
+      background-color: rgb(255, 185, 0);
+   
+     
+      /* position: absolute;
+     left: 35%;
+     top: 7.5%;
+      margin-top: -7%;
+      margin-left: 37%;*/
+      padding: 4%;
+      transform: translate(0%, 10%); /* X-Y */
+      box-shadow:  0px 10px 10px -10px   inset;
+  
+      .letras{
+      
+        text-align: center;
+        
+        margin-top: -5%;
+        font-size: 4vw; /* Tamaño de letra en píxeles */
+        
+        transform: translate(-5%, 75%); /* X-Y */
+        
+      }
+     
+    
+    }
+  
+  }
+  
+  
+  
+  .Imagenes2{
+    transform: translate(0%, -10%); /* X-Y */
+  
+    .rectangulo-blanco{
+      background-color: white; 
+      width: 99%; /* Ancho del rectángulo */
+      /*height: 35%;  Altura del rectángulo */
+      position: relative;
+      border-radius: 19px;
+      padding:10%;
+     top: 9px;
+      /* margin-left: 10%;*/
+      border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+      border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+     
+   
+      .miniImagenes{
+        
+          .imagen1{
+            width: 14%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:10%;/* Ajustar la posición horizontal si es necesario */;
+            top: 18%;
+          }
+  
+          .imagen2{
+            width: 14.5%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:31%;/* Ajustar la posición horizontal si es necesario */;
+            top: 11%;
+  
+          }
+  
+          .imagen3{
+            width: 14%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:53%;/* Ajustar la posición horizontal si es necesario */
+            top: 10%;
+  
+          }
+  
+          .imagen4{
+              width: 15%; /* Ancho del rectángulo */
+              /*height: 95%;  Altura del rectángulo */
+             position:absolute;
+              left:75%;/* Ajustar la posición horizontal si es necesario */
+              top: 10%;
+             
+              
+          }
+  
+  
+       }
+  
+  
+    }
+  
+    .circulo{
+      width: 35%; /* Ancho del rectángulo */
+     /*  height: 65%; Altura del rectángulo */
+      /*position:relative; 
+      top: 2px; Ajustar la posición vertical si es necesario */
+      /*left: -17px; Ajustar la posición horizontal si es necesario 
+      /*margin-top: -25%;
+      margin-left: -18%;*/
+      transform: translate(-16%, -3%); /* X-Y */
+  
+    }
+  
+  
+    .Entre-otros{
+      color: rgba(255, 185, 0, 1);
+      width: 30%; /* Ancho del texto */
+      /*height: 20%; Largo del texto*/
+      font-size: 140%; /* Tamaño de letra en píxeles */
+      font-weight: 700;
+      transform: translate(300%, -100%);
+      /* position: absolute;
+      top: 70%;  Posiciona  vertical  
+      left: 85%;  Posiciona  horizontal  
+      ;
+      margin-left: 90%;
+      margin-top: -5%;*/
+    
+    
+    }
+  
+  }
+  
+  
+  .letricas{
+      
+    color: rgba(255, 185, 0, 1);
+    width: 100%; /* Ancho del texto */
+    /*height: 20%; Largo del texto*/
+    font-size: 50%; /* Tamaño de letra en píxeles */
+    /*position: absolute;*/
+    /*top: 70%;  Posiciona  vertical  */
+    /*left: 8%;  Posiciona  horizontal  */
+    font-weight: 600;
+    text-align: center;
+    transform: translate(0%, 130%); /* X-Y */
+  }
+  }
+
+
+  
+@media  screen and (min-width: 1023px) {
+
+
+  
+  .portada{
+   
+    /*
+    margin: 2% 5% 5% 5%;
+    padding: 10% 5% 10% 5%; */
+    top: 0px;/* Posiciona  vertical  */
+    left: 2px;/* Posiciona  horizontal  */
+  
+    .cuadro-amarillo{
+      width: 40%;
+     height:30%;
+      background-color: rgb(255, 185, 0);
+   
+     
+      /* position: absolute;
+     left: 35%;
+     top: 7.5%;
+      margin-top: -7%;
+      margin-left: 37%;*/
+      padding: 4%;
+      transform: translate(0%, 80%); /* X-Y */
+      box-shadow:  0px 10px 10px -10px   inset;
+      
+  
+      .letras{
+      
+        text-align: center;
+        
+        margin-top: -5%;
+        font-size: 4vw; /* Tamaño de letra en píxeles */
+        
+        transform: translate(-5%, 35%); /* X-Y */
+        
+      }
+     
+    
+    }
+  
+  }
+  
+  
+  
+  .Imagenes2{
+    transform: translate(0%, 20%); /* X-Y */
+  
+    .rectangulo-blanco{
+      background-color: white; 
+      width: 99%; /* Ancho del rectángulo */
+      /*height: 35%;  Altura del rectángulo */
+      position: relative;
+      border-radius: 19px;
+      padding:10%;
+     top: 9px;
+      /* margin-left: 10%;*/
+      border-top-left-radius: 0%; /* Borde ovalado solo en la parte superior izquierda */
+      border-bottom-left-radius: 0%; /* Borde ovalado solo en la parte inferior izquierda */
+     
+   
+      .miniImagenes{
+        
+          .imagen1{
+            width: 14%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:10%;/* Ajustar la posición horizontal si es necesario */;
+            top: 18%;
+          }
+  
+          .imagen2{
+            width: 14.5%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:31%;/* Ajustar la posición horizontal si es necesario */;
+            top: 11%;
+  
+          }
+  
+          .imagen3{
+            width: 14%; /* Ancho del rectángulo */
+            /*height: 95%;  Altura del rectángulo */
+            position:absolute;
+            left:53%;/* Ajustar la posición horizontal si es necesario */
+            top: 10%;
+  
+          }
+  
+          .imagen4{
+              width: 15%; /* Ancho del rectángulo */
+              /*height: 95%;  Altura del rectángulo */
+             position:absolute;
+              left:75%;/* Ajustar la posición horizontal si es necesario */
+              top: 10%;
+             
+              
+          }
+  
+  
+       }
+  
+  
+    }
+  
+    .circulo{
+      width: 35%; /* Ancho del rectángulo */
+     /*  height: 65%; Altura del rectángulo */
+      /*position:relative; 
+      top: 2px; Ajustar la posición vertical si es necesario */
+      /*left: -17px; Ajustar la posición horizontal si es necesario 
+      /*margin-top: -25%;
+      margin-left: -18%;*/
+      transform: translate(-16%, -3%); /* X-Y */
+  
+    }
+  
+  
+    .Entre-otros{
+      color: rgba(255, 185, 0, 1);
+      width: 20%; /* Ancho del texto */
+      /*height: 20%; Largo del texto*/
+      font-size: 140%; /* Tamaño de letra en píxeles */
+      font-weight: 700;
+      transform: translate(480%, -230%);
+      /* position: absolute;
+      top: 70%;  Posiciona  vertical  
+      left: 85%;  Posiciona  horizontal  
+      ;
+      margin-left: 90%;
+      margin-top: -5%;*/
+    
+    
+    }
+  
+  }
+  
+  
+.Ilustracion{
+
+  position: relative;
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -9%;
+    
+  
+  .Ilustracion2{
+    
+    /*padding: 10px; arriba| derecha | abtop: 20%; /* Posiciona  vertical  */
+    /*position: relative;*/
+    width: 85%;
+  
+    
+
+  }
+
+  .Kub{
+    position: absolute;
+    top: 10%; /* Posiciona  vertical  */
+    left: 59%; /* Posiciona  horizontal  */
+    width: 5%;
+    height: 10% /*ancho*/
+    
+
+  }
+
+
+}
+  .letricas{
+      
+    color: rgba(255, 185, 0, 1);
+    width: 90%; /* Ancho del texto */
+    /*height: 20%; Largo del texto*/
+    font-size: 150%; /* Tamaño de letra en píxeles */
+    /*position: absolute;*/
+    /*top: 70%;  Posiciona  vertical  */
+    /*left: 8%;  Posiciona  horizontal  */
+    font-weight: 600;
+    text-align: center;
+    transform: translate(5%, -130%); /* X-Y */
+    margin-top: 20%;
+   
+  }
+
+
+
+}
