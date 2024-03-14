@@ -1,0 +1,55 @@
+
+
+
+.Imagen{
+    position: relative;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -9%;
+
+    .Imagen1{
+
+     
+    width: 95%;
+    transform: translate(-1%, 0%); /* X-Y */
+    
+
+    }
+
+    .Imagen2{
+
+        height: 470px;
+        width: 30%;
+        transform: translate(-110%, 5%); /* X- Y */
+
+    }
+
+    .Imagen3{
+
+        width: 29%;
+        height: 420px; /*largo */
+        transform: translate(-2%,-135%); /* X-Y */
+
+    }
+
+    .Imagen4{
+        width: 29%;
+        height: 445px;
+        transform: translate(110%,-217%); /* X-Y */
+
+
+    }
+    
+
+    .ImagenQr{
+     transform: translateY(-380%);
+     width: 20%;
+
+
+    }
+    
+  
+}
